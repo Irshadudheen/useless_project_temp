@@ -1,20 +1,19 @@
 <img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
 
-# [Project Name] 🎯
+# TinyUrl 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: Irshadudheen P
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Irshadudheen P - EMEA College
+
 
 ### Project Description
-[2-3 lines about what your project does]
+A professional URL shortening service built with Node.js, Express, MongoDB, Typescript . This project features robust URL analytics, user authentication, and rate limiting to deliver a secure and scalable solution.
 
 ### The Problem (that doesn't exist)
 [What ridiculous problem are you solving?]
@@ -25,15 +24,12 @@
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- TypeScript
+- MVC
+- Reat 
+- MongoDB with Mongoose
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+
 
 ### Implementation
 For Software:
