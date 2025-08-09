@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import { createShortUrl } from "../api/user";
 
 
@@ -6,7 +6,7 @@ function Home() {
   const [longUrl, setLongUrl] = useState("");
   const [shortUrl, setShortUrl] = useState("");
   const [customName, setCustomName] = useState("");
-  const [showQR, setShowQR] = useState(false);
+  // const [showQR, setShowQR] = useState(false);
   const [qr,setQr] = useState('')
 
   const handleSubmitToCreateShortUrl = async () => {
@@ -18,7 +18,7 @@ function Home() {
       const short = await createShortUrl(longUrl, customName);
       setShortUrl(short.existing.shortUrl);
       setQr(short.qr)
-      setShowQR(true);
+      
     } catch (error) {
       console.log(error);
     }
