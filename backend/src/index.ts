@@ -2,7 +2,7 @@
 import mongoose from 'mongoose'
 import 'dotenv/config'
 import {app} from './app'
-const port = 4000
+const port = 3000
 
 const start = async()=>{
     if(!process.env.JWT_KEY){
